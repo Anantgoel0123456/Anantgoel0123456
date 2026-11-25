@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="300" viewBox="0 0 1200 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Anant Goel - Building deterministic LLM evaluation tools, Python CLIs, and Linux automation workflows">
+  <defs>
+    <linearGradient id="bg-light" x1="0" y1="0" x2="1200" y2="300" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="55%" stop-color="#F8FAFC"/>
+      <stop offset="100%" stop-color="#F1F5F9"/>
+    </linearGradient>
+
+    <linearGradient id="top-accent-light" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#0284C7"/>
+      <stop offset="65%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#7C3AED" stop-opacity="0"/>
+    </linearGradient>
+
+    <radialGradient id="glow-cyan-light" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(180 40) rotate(20) scale(460 220)">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="glow-indigo-light" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1060 270) rotate(-15) scale(480 240)">
+      <stop offset="0%" stop-color="#4F46E5" stop-opacity="0.09"/>
+      <stop offset="100%" stop-color="#4F46E5" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid-light" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#CBD5E1" stroke-width="0.75" stroke-opacity="0.45"/>
+    </pattern>
+
+    <clipPath id="card-clip-light">
+      <rect x="1" y="1" width="1198" height="298" rx="18"/>
+    </clipPath>
+
+    <filter id="term-shadow-light" x="648" y="28" width="516" height="256" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <style>
+    .sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Inter", Helvetica, Arial, sans-serif;
+    }
+    .mono {
+      font-family: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    }
+    @keyframes pulseDot {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.35; }
+    }
+    @keyframes blinkCursor {
+      0%, 49% { opacity: 1; }
+      50%, 100% { opacity: 0; }
+    }
+    .pulse {
+      animation: pulseDot 2.6s ease-in-out infinite;
+    }
+    .cursor {
+      animation: blinkCursor 1.15s steps(1, end) infinite;
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .pulse, .cursor { animation: none; }
+    }
+  </style>
+
+  <!-- Card Background -->
+  <g clip-path="url(#card-clip-light)">
+    <rect x="1" y="1" width="1198" height="298" rx="18" fill="url(#bg-light)"/>
+    <rect x="1" y="1" width="1198" height="298" fill="url(#grid-light)"/>
+    <rect x="1" y="1" width="1198" height="298" fill="url(#glow-cyan-light)"/>
+    <rect x="1" y="1" width="1198" height="298" fill="url(#glow-indigo-light)"/>
+    <rect x="0" y="1" width="1200" height="2.5" fill="url(#top-accent-light)"/>
+  </g>
+
+  <!-- Outer Card Border -->
+  <rect x="1" y="1" width="1198" height="298" rx="18" stroke="#D0D7DE" stroke-width="1.2"/>
+
+  <!-- Left Column: Identity -->
+  <!-- Eyebrow Pill -->
+  <rect x="56" y="42" width="318" height="28" rx="14" fill="#FFFFFF" stroke="#D0D7DE" stroke-width="1"/>
+  <circle cx="74" cy="56" r="4" fill="#10B981" class="pulse"/>
+  <text x="88" y="60" class="mono" font-size="11.5" font-weight="600" letter-spacing="1.2" fill="#475569">OPEN SOURCE &#x00B7; AI TOOLING &#x00B7; SYSTEMS</text>
+
+  <!-- Name -->
+  <text x="56" y="132" class="sans" font-size="54" font-weight="800" letter-spacing="-1.2" fill="#0F172A">Anant Goel</text>
+
+  <!-- Handle -->
+  <text x="58" y="162" class="mono" font-size="15" font-weight="500" fill="#64748B">@Anantgoel0123456</text>
+
+  <!-- Subtitle -->
+  <text x="56" y="200" class="sans" font-size="16.5" font-weight="400" fill="#334155">Building deterministic LLM evaluation tools, strictly typed</text>
+  <text x="56" y="224" class="sans" font-size="16.5" font-weight="400" fill="#334155">Python CLIs, and Linux automation workflows.</text>
+
+  <!-- Focus Chips -->
+  <g transform="translate(56, 246)">
+    <rect x="0" y="0" width="74" height="25" rx="6" fill="#E0F2FE" stroke="#BAE6FD" stroke-width="1"/>
+    <text x="37" y="16.5" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#0369A1">Python</text>
+
+    <rect x="84" y="0" width="88" height="25" rx="6" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="1"/>
+    <text x="128" y="16.5" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#4338CA">LLM Eval</text>
+
+    <rect x="182" y="0" width="116" height="25" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="240" y="16.5" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#334155">Linux &amp; Shell</text>
+
+    <rect x="308" y="0" width="124" height="25" rx="6" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1"/>
+    <text x="370" y="16.5" text-anchor="middle" class="mono" font-size="11.5" font-weight="600" fill="#334155">Docker &amp; CI/CD</text>
+  </g>
+
+  <!-- Right Column: Terminal Showcase Card -->
+  <g filter="url(#term-shadow-light)">
+    <rect x="668" y="40" width="476" height="220" rx="12" fill="#0F172A" stroke="#1E293B" stroke-width="1.2"/>
+    <!-- Title Bar -->
+    <path d="M 668 52 C 668 45.373 673.373 40 680 40 H 1132 C 1138.627 40 1144 45.373 1144 52 V 72 H 668 V 52 Z" fill="#1E293B"/>
+    <line x1="668" y1="72" x2="1144" y2="72" stroke="#334155" stroke-width="1"/>
+    <!-- Traffic lights -->
+    <circle cx="688" cy="56" r="5" fill="#FF5F56"/>
+    <circle cx="706" cy="56" r="5" fill="#FFBD2E"/>
+    <circle cx="724" cy="56" r="5" fill="#27C93F"/>
+    <!-- Window title -->
+    <text x="906" y="60" text-anchor="middle" class="mono" font-size="11.5" fill="#94A3B8">llm-drift-bench &#x2014; zsh</text>
+
+    <!-- Terminal Lines -->
+    <text x="688" y="99" class="mono" font-size="12.5" fill="#38BDF8">$</text>
+    <text x="702" y="99" class="mono" font-size="12.5" fill="#F1F5F9">pip install llm-drift-bench</text>
+
+    <text x="688" y="123" class="mono" font-size="12.5" fill="#38BDF8">$</text>
+    <text x="702" y="123" class="mono" font-size="12.5" fill="#F1F5F9">llm-drift-bench run --config drift.toml</text>
+
+    <line x1="688" y1="138" x2="1124" y2="138" stroke="#334155" stroke-width="1" stroke-dasharray="3 3"/>
+
+    <!-- Gate 1 -->
+    <path d="M 689 157 L 692.5 160.5 L 699 153.5" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="710" y="161" class="mono" font-size="12.5" fill="#CBD5E1">json schema conformity</text>
+    <text x="1038" y="161" text-anchor="end" class="mono" font-size="12.5" fill="#F8FAFC">99.4%</text>
+    <rect x="1062" y="147" width="56" height="19" rx="4" fill="#064E3B"/>
+    <text x="1090" y="160.5" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#34D399">PASS</text>
+
+    <!-- Gate 2 -->
+    <path d="M 689 182 L 692.5 185.5 L 699 178.5" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="710" y="186" class="mono" font-size="12.5" fill="#CBD5E1">composite drift score</text>
+    <text x="1038" y="186" text-anchor="end" class="mono" font-size="12.5" fill="#F8FAFC">0.06</text>
+    <rect x="1062" y="172" width="56" height="19" rx="4" fill="#064E3B"/>
+    <text x="1090" y="185.5" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#34D399">PASS</text>
+
+    <!-- Gate 3 -->
+    <path d="M 689 207 L 692.5 210.5 L 699 203.5" stroke="#34D399" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="710" y="211" class="mono" font-size="12.5" fill="#CBD5E1">p95 latency regression</text>
+    <text x="1038" y="211" text-anchor="end" class="mono" font-size="12.5" fill="#F8FAFC">+3.2%</text>
+    <rect x="1062" y="197" width="56" height="19" rx="4" fill="#064E3B"/>
+    <text x="1090" y="210.5" text-anchor="middle" class="mono" font-size="10.5" font-weight="700" fill="#34D399">PASS</text>
+
+    <!-- Bottom status line -->
+    <path d="M 690 233 L 696 237 L 690 241 Z" fill="#818CF8"/>
+    <text x="706" y="241" class="mono" font-size="12" fill="#94A3B8">v0.3.0 on PyPI &#x00B7; offline &#x00B7; zero-judge</text>
+    <rect x="960" y="230" width="7" height="13" rx="1" fill="#38BDF8" class="cursor"/>
+  </g>
+</svg>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1200" height="64" viewBox="0 0 1200 64" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Anant Goel GitHub profile footer">
+  <defs>
+    <linearGradient id="foot-line-dark" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#38BDF8" stop-opacity="0.7"/>
+      <stop offset="70%" stop-color="#6366F1" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#A855F7" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .mono {
+      font-family: "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+    }
+  </style>
+  <rect x="1" y="1" width="1198" height="62" rx="12" fill="#0D1117" stroke="#21262D" stroke-width="1"/>
+  <rect x="1" y="1" width="1198" height="2" rx="1" fill="url(#foot-line-dark)"/>
+  <text x="600" y="37" text-anchor="middle" class="mono" font-size="12.5" fill="#8B949E">Built with curiosity &amp; deterministic rigor &#x00B7; github.com/Anantgoel0123456</text>
+</svg>
